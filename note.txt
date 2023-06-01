@@ -1,0 +1,10 @@
+1. install laravel
+    composer create-project laravel/laravel ePetitionApi
+2. cd ePetitionApi
+3. php artisan migrate
+4. make model factory and seeder
+    php artisan make:model Petition -mfs
+5. make controller for api
+    php artisan make:controller PetitionController --api --model=Petition
+6. php artisan make:resource PetitionResource
+7. php artisan make:resource PetitionCollection
