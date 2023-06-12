@@ -12,6 +12,6 @@ class PetitionSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        \App\Models\Petition::factory()->times(100)->create();
     }
 }

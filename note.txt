@@ -8,3 +8,8 @@
     php artisan make:controller PetitionController --api --model=Petition
 6. php artisan make:resource PetitionResource
 7. php artisan make:resource PetitionCollection
+8. make the migration petition
+9. to change column data type
+9.1. php artisan make:migration change_category_type_in_petitions
+10. seed data  php artisan db:seed
+10.1 seed data by their class  php artisan db:seed --class=PetitionSeeder
