@@ -13,6 +13,6 @@ class Petition extends Model
         'description',
         'category',
         'author',
-        'signess',];
+        'signess'];
 
 }

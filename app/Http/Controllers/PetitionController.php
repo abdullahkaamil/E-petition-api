@@ -49,7 +49,7 @@ class PetitionController extends Controller
      */
     public function update(Request $request, Petition $petition): PetitionResource
     {
-        $petition::update($request->only([
+        $petition->update($request->only([
             'title',
             'description',
             'category',
